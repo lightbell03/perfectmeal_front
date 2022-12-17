@@ -1,6 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { baseUrl } from "../../../dns";
 
-const baseUrl = 'http://192.168.0.19:8080';
+const baseUrl = baseUrl;
 
 const authHeader = (accessToken) => {
     return {
